@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pawora - About Us</title>
+<style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf4;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #e58b50;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #e58b50;
+}
+
+/* Hero */
+.hero {
+    background-color: #ffead8;
+    padding: 60px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.hero img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+/* Button */
+.btn {
+    background-color: #e58b50;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Sections */
+section {
+    padding: 50px 8%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Service Cards */
+.services {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 15px 0;
+    color: #e58b50;
+}
+
+/* About */
+.about {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #ffead8;
+}
+
+.about img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.about-text h2 {
+    margin-bottom: 15px;
+}
+
+/* Contact */
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero, .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero img, .about img {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+}</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">🐾 Pawora</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="about">
+
+    <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=900"
+    alt="Dogs playing">
+
+    <div class="about-text">
+        <h2>About Pawora ❤️</h2>
+
+        <p>
+        Welcome to Pawora! We are passionate about
+        animals and believe every pet deserves love,
+        happiness and proper care.
+        </p>
+
+        <p>
+        Our goal is to make pet parenting easier by
+        providing grooming, health care, walking and
+        other useful pet services.
+        </p>
+
+        <p>
+        We treat every furry friend like a member
+        of our own family.
+        </p>
+
+        <a href="contact.html" class="btn">Contact Us</a>
+    </div>
+
+</section>
+
+<section>
+    <h2 class="section-title">Our Mission 🐾</h2>
+    <p class="subtitle">
+    Making every pet healthy, happy and loved.
+    </p>
+</section>
+
+<footer>
+    <p>🐾 Pawora | Made With Love For Pet Lovers</p>
+    <p>© 2026 Pawora. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
